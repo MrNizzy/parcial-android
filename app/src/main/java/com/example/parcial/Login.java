@@ -38,7 +38,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void iniciarSesion(View view){
-        mAuth.createUserWithEmailAndPassword(correo.getText().toString().trim(), contrasena.getText().toString())
+        mAuth.signInWithEmailAndPassword(correo.getText().toString().trim(), contrasena.getText().toString())
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
