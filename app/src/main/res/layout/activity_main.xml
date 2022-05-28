@@ -52,7 +52,7 @@
             android:layout_width="169dp"
             android:layout_height="wrap_content"
             android:layout_weight="-1"
-            android:onClick=" "
+            android:onClick="Iniciar"
             android:text="@string/btn_iniciar_sesion"
             tools:text="@string/btn_iniciar_sesion" />
 
