@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -45,5 +47,14 @@ public class MainActivity extends AppCompatActivity {
                 //setContentView(R.layout.activity_prueba);
             }
         });
+    }
+
+    public void Iniciar(View view){
+        Intent i = new Intent(this, Login.class);
+        startActivity(i);
+    }
+    public void Registrarse(View view ){
+        Intent i = new Intent(this, Registrarse.class);
+        startActivity(i);
     }
 }
