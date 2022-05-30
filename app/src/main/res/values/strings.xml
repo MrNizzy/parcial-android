@@ -31,5 +31,6 @@
 
     <string name="btn_iniciar_Sesion">Iniciar Sesión</string>
     <string name="btn_registro">Registrarse</string>
+    <string name="default_web_client">778991977945-q06h1j8g4pjrqodsqi0u65l7d7326v04.apps.googleusercontent.com</string>
 
 </resources>
